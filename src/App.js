@@ -36,9 +36,10 @@ function App() {
   const displayMessages = () => {
     return messages.map(message => {
       return (
-        <div style={{backgroundColor: 'white'}}>
-          <p style={{color: 'black'}}>{message.message}</p>
-          <p style={{color: 'black'}}>by: {message.name}</p>
+        <div className='message-container'>
+          <p className='message'>{message.message}</p>
+          <p  className='message sender'>from: {message.name}</p>
+
         </div>
       )
     })

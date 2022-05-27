@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.message-container {
+  background-color: white;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  justify-content: flex-end;
+  padding-right: 20px;
+  border-radius: 30px;
+}
+
+.message {
+  color: black;
+  margin: 20px;
+}
+
+.sender {
+  font-size: 14px;
+}
