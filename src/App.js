@@ -48,6 +48,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <h1><a href='https://firebase.google.com/' target="_blank;">Firebase Chat App</a></h1>
         <form onSubmit={submitMessage}>
           <div>
             <input name='name' placeholder='Name'></input>
