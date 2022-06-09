@@ -3,9 +3,6 @@ import './App.css';
 import firebase from './firebase';
 import { ref, set, onValue } from "firebase/database";
 
-// import "firebase/compat/auth"
-// import "firebase/compat/firestore"
-
 
 function App() {
   const [messages, setMessages] = useState([])
